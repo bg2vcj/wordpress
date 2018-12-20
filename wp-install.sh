@@ -125,8 +125,8 @@ install_wp(){
 
     echo "安装WordPress"
     cd /usr/share/nginx/html
-    wget https://cn.wordpress.org/wordpress-5.0.1-zh_CN.zip
-    unzip wordpress-5.0.1-zh_CN.zip
+    wget https://wordpress.org/latest.zip
+    unzip latest.zip
     mv wordpress/* ./
     cp wp-config-sample.php wp-config.php
     echo "配置参数"
